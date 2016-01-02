@@ -41,41 +41,63 @@ Thank you, again, for visiting Prevent HIV OK. We look forward to providing you 
 
 # Follow Us
 You can follow us on Twitter, Facebook, Google+, and LinkedIn using the links below.
-<section>
 
+<section>
   <!-- Twitter Follow Button -->
-  <section id="twitter-button">
+  <section id="twitter-button" class="social-media-button">
     <a href="https://twitter.com/PreventHIVOK" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @PreventHIVOK</a>
-    <!-- Inialize Twitter JavaScript SDK -->
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <!-- Initialize Twitter JavaScript SDK -->
+    <script>
+      "use strict";
+      (function(d,s,id) {
+        var js, fjs=d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)) {
+          js=d.createElement(s);
+          js.id=id;
+          js.src=p+'://platform.twitter.com/widgets.js';
+          fjs.parentNode.insertBefore(js,fjs);
+        }
+      }(document, 'script', 'twitter-wjs'));
+    </script>
   </section>
   <!-- /Twitter Follow Button -->
-  
   <!-- Facebook Like Button -->
-  <section id="facebook-button">
-    <div class="fb-like" data-href="http://preventhivok.org" data-width="157" data-height="28" data-layout="button" data-action="like" data-show-faces="false" data-share="false" data-colorscheme="dark"></div>
+  <section id="facebook-button" class="social-media-button">
+    <div class="fb-follow" data-href="https://www.facebook.com/PreventHIVOK" data-layout="button" data-show-faces="false"></div>
     <!-- Inialize Facebook JavaScript SDK -->
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <div id="fb-root"></div>
+    <script>
+      "use strict";
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=942519645768267";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
   </section>
   <!-- /Facebook Like Button -->
-  
   <!-- Goole+ Follow Button -->
-  <section id="googleplus-button">
+  <section id="googleplus-button" class="social-media-button">
     <!-- Place this tag where you want the widget to render. -->
     <div class="g-follow" data-annotation="none" data-height="24" data-href="//plus.google.com/u/0/116000457796093566416" data-rel="publisher"></div>
     <!-- Place this tag after the last widget tag. -->
     <script type="text/javascript">
+      "use strict";
       (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        var po = document.createElement('script');
+        po.type = 'text/javascript';
+        po.async = true;
         po.src = 'https://apis.google.com/js/platform.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(po, s);
       })();
     </script>
   </section>
   <!-- /Goole+ Follow Button -->
-  
   <!-- LinkedIn Follow Button -->
-  <section id="linkedin-button">
+  <section id="linkedin-button" class="social-media-button">
     <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
     <script type="IN/FollowCompany" data-id="10264784"></script>
   </section>
