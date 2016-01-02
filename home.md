@@ -4,7 +4,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/
 -->
 
 # Welcome to Prevent HIV OK
-Welcome and thank you for visiting Prevent HIV OK! In time, we provide a slew of educational information, legislative efforts in Oklahoma, and a searchable list of testing locations.
+Welcome, and thank you for visiting Prevent HIV OK! In time, we provide a slew of educational information, legislative efforts in Oklahoma, and a searchable list of testing locations.
 
 Content for this site is currently being developed and will be made available as it is written. We will also be transitioning this site's [content management system ("CMS")](https://en.wikipedia.org/wiki/Content_management_system "Content management system article on Wikipedia") from [WordPress](https://wordpress.org "WordPress") to [Drupal](https://www.drupal.org "Drupal") by the end of the first quarter (March) of 2016.
 
