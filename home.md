@@ -8,13 +8,13 @@ Welcome, and thank you for visiting Prevent HIV OK! In time, we provide a slew o
 
 Content for this site is currently being developed and will be made available as it is written. We will also be transitioning this site's [content management system ("CMS")](https://en.wikipedia.org/wiki/Content_management_system "Content management system article on Wikipedia") from [WordPress](https://wordpress.org "WordPress") to [Drupal](https://www.drupal.org "Drupal") by the end of the first quarter (March) of 2016.
 
-# WordPress to Drupal
+## WordPress to Drupal
 Currently, this site has been developed using WordPress; however, we are working on a Drupal-based website to provide more functionality and a better user experience. Also, our developer is more comfortable with Drupal.
 
-## What is the Difference?
+### What is the Difference?
 Originally developed as a blogging platform, WordPress is a simple-to-use and can be setup quickly and there are many benefits to that. Consequently, there are also drawbacks. While WordPress has developed into a more robust CMS, it is our belief that it it not an adequite enough to support our long-term goals. With that in mind, we believe Drupal is the appropriate CMS (some would define it as a content management framework) of choice for this site and we are working on building a new and improved version using it.
 
-# Site Roadmap
+## Site Roadmap
 A complete roadmap for Prevent HIV OK [will be available here](/roadmap "Prevent HIV OK's roadmap"); below is a simple overview.
 
 - Create content based on the link structure outlined below.
@@ -23,14 +23,14 @@ A complete roadmap for Prevent HIV OK [will be available here](/roadmap "Prevent
 
 Site roadmap was last updated 2016-01-1 by Curtis Blumer.
 
-## Link Structue
+### Link Structue
 The following is an outline of the top-level hierarchy of pages.
 
 - Home (/home)
 - Blog (/blog)
 - Education (/education)
 - Testing (/testing)
-- Legislation (/legislation)
+- Policy (/policy)
 - Calendar (/calendar)
 - Resources (/resources)
 - About (/about)
@@ -104,7 +104,7 @@ You can follow us on Twitter, Facebook, Google+, and LinkedIn using the links be
   <!-- /LinkedIn Follow Button -->
 </section>
 
-# Copyright
+## Copyright
 <section class="creative-commons-BY-SA" style="text-align: center;">
   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
   <br />
